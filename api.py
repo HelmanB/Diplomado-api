@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from classes import ModelInput, ModelOutput, APIModelBackEnd
 from metodos import metodos  as m
 
 app = FastAPI(title="API", version="1.0.0")
